@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <form action="" method="get" id="formulario">
+        <div>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre"><span id="errorNombre" class="noVisible">Escribe tu nombre</span>
+        </div>
+        <div>
+            <input type="password" name="password" id="password" placeholder="Password"><span id="errorPassword" class="noVisible">Escribe tu password</span>
+        </div>
+        <div>
+            <br><b><label>¿que estacion de radio prefieres?</label></b> <br>
+                <input type="radio" name="option" id="radio1" value="1">1 <br>
+                <input type="radio" name="option" id="radio2" value="2">2 <br>
+                <input type="radio" name="option" id="radio3" value="3">3 <br>
+                <span id="noAguas" class="noVisible"> Selecciona una respuesta</span>
+        </div>
+        <div>
+            <br><b><label>¿tema de preferencia?</label></b> <br>
+                <input type="radio" name="optionCb" id="radio1" value="noticias">noticias <br>
+                <input type="radio" name="optionCb" id="radio2" value="chistes">chistes <br>
+                <input type="radio" name="optionCb" id="radio3" value="musicales">musicales <br>
+                <span id="noComida" class="noVisible"> Selecciona una respuesta</span>
+        </div>
+        <div>
+            <button type="submit">Enviar datos</button>
+        </div>
+    </form>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
